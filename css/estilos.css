@@ -1,0 +1,359 @@
+.body1{
+    max-width: 1100px;
+    font-size: 20px;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.h1_1{
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-top: 1em;
+    font-weight: bolder;
+}
+
+.h1_1::after, .h1_1::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: rgb(138, 136, 136);
+    top: 0.5em;
+}
+
+.h1_1::before{
+    left: -140px;
+}
+
+.h1_1::after{
+    right: -140px;
+}
+.h2_1{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    padding: 0.3em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-color: rgb(218, 218, 218);
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    border-radius: 25px;
+}
+.h3_1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2em;
+    border-bottom: 1px solid gray;
+    margin-bottom: 3em;
+    font-weight: bolder;
+}
+.valoracion{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 2em;
+    border-bottom: 1px gray;
+}
+.imagen_portada{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+    top: 20em;
+}
+.img1{
+    width: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0em;
+}
+
+.firma{
+    color: gray;
+    float: left;
+    margin: 0 auto;
+    padding: 83px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 5px;
+}
+p{
+    line-height: 2em;
+    color: gray;
+    text-align: left;
+}
+.texto_principal{
+    text-align: center;
+    line-height: 2em;
+    padding: 3em;
+}
+
+.boton{
+    background-color: rgb(32, 32, 34);
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding: 1.2em 1em;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    width: 40%;
+    letter-spacing: 0.1em;
+}
+.fieldset{
+    color: rgb(36, 33, 33);
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 2em;
+    border-radius: 25px;
+}
+
+.fieldset input{
+    border-radius: 20px;
+}
+
+.fieldset1{
+    margin-top: 2em;
+    background-color: rgb(138, 136, 136);
+    color: rgb(26, 26, 26);
+    border-radius: 25px;
+    line-height: 2em;
+}
+
+.FIFA{
+    color: rgb(29, 2, 2);
+
+}
+.div1 nav ul li {
+    float: left;
+    margin: 35px 0;
+    padding: 0.3em;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    list-style-type: none;
+    font-size: 20px;
+    color: black;
+    border-radius: 25px;
+    letter-spacing: 0.2em;
+    border-left: 1000px;
+    margin-bottom: 3em;
+    margin-left: 5em;
+}
+
+.div1 nav ul li a{
+    color: rgb(250, 246, 246);
+    text-align: center;
+    text-decoration: none;
+}
+.boton1{
+    padding: 1.8em;
+}
+
+
+
+
+
+
+
+
+
+
+.body2{
+    max-width: 1100px;
+    font-size: 20px;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.h1_2{
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-top: 1em;
+    font-weight: bolder;
+}
+
+.h1_2::after, .h1_2::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: rgb(138, 136, 136);
+    top: 0.6em;
+}
+
+.h1_2::before{
+    left: -140px;
+}
+
+.h1_2::after{
+    right: -140px;
+}
+.table2{
+    width: 40em;
+    text-align: center;
+    margin: auto;
+    padding: 3em;
+    line-height: 2em;
+    font-weight: bolder;
+}
+.table2 tr td a{
+    color: black;
+}
+
+.thead2{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    border-spacing: 2em;
+    text-transform: uppercase;
+}
+
+.par2{
+    background-color: rgb(226, 226, 226);
+    color: rgb(107, 107, 107);
+}
+
+.impar{
+    background-color: rgb(107, 107, 107);
+    color: rgb(226, 226, 226);
+}
+
+.div2 nav ul li {
+    float: left;
+    padding: 0em;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    list-style-type: none;
+    font-size: 20px;
+    color: rgb(138, 136, 136);
+    border-radius: 25px;
+    letter-spacing: 0.2em;
+    margin-bottom: 2em;
+    margin-left: 5em;
+    overflow: hidden;
+
+}
+
+.div2 nav ul li a{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+}
+.boton2{
+    padding: 1em;
+}
+.fieldset2{
+    background-color: rgb(138, 136, 136);
+    text-align: center;
+    line-height: 1em;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+.body3{
+    max-width: 1100px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.h1_3{
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-top: 1em;
+}
+
+.h1_3::after, .h1_3::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: rgb(138, 136, 136);
+    top: 0.6em;
+}
+
+.h1_3::before{
+    left: -140px;
+}
+
+.h1_3::after{
+    right: -140px;
+}
+
+.h2_3{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 2em;
+    text-transform: uppercase;
+}
+
+.destacada{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 3em;
+}
+
+.caja{
+    clear: both;
+    margin-top: 3em;
+}
+
+.caja img{
+    float: left;
+    width: 300px;
+    margin: 0 30px 0 0;
+}
+
+.caja p{
+    line-height: 2em;
+    color: gray;
+}
+
+.caja p.destacada{
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.imagen_inicial_3{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 0em;
+}
+
+.boton3{
+    padding: 1em;
+}
+
+.fl3{
+    background-color: rgb(0, 0, 0);
+    color: #FFFFFF;
+    padding: 0.5em;
+    margin: 0 auto;
+    text-transform: uppercase;
+    margin-top: 5em;
+    margin-bottom: 2em;
+    width: 35%;
+}
+.fl3 a{
+    text-decoration: none;
+    color: white;
+}
